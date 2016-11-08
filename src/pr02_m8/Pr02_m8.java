@@ -11,7 +11,6 @@ package pr02_m8;
  */
 import java.io.*;
 
-import java.io.*;
 public class Pr02_m8 {
 
 public static void main(String[] args) throws IOException { File f = new File("fitxer.html");
@@ -27,6 +26,8 @@ bw.write(" <title>");bw.newLine(); bw.write(" Nova p&agrave;gina web");
 bw.newLine(); bw.write(" </title>"); bw.newLine(); bw.write(" </head>"); bw.newLine();
 
 bw.write(" <body>");
+bw.write(" <h1>DAW2 m08uf4pr2</h1>");
+bw.newLine();
 bw.newLine();
 bw.write(" Nova p&agrave;gina web"); bw.newLine();
 bw.write(" </body>");
